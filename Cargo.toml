@@ -1,0 +1,21 @@
+[package]
+name = "cargo-alfred"
+version = "0.0.1"
+authors = ["Ruslan Nasonov <rus.nasonov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0.104"
+serde_json = "1.0.48"
+serde_derive = "1.0.104"
+tar = "0.4"
+
+[lib]
+name = "cargo_alfred"
+path = "src/lib.rs"
+doc = true
+
+[[bin]]
+name = "cargo-alfred"
+path = "src/main.rs"
+doc = false

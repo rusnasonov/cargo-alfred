@@ -1,0 +1,11 @@
+[package]
+name = "example"
+version = "0.0.1"
+authors = ["Ruslan Nasonov <rus.nasonov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[package.metadata.alfred]
+workflow_name = "example"
+include = ["README.md"]
