@@ -9,6 +9,8 @@ serde = "1.0.104"
 serde_json = "1.0.48"
 serde_derive = "1.0.104"
 tar = "0.4"
+handlebars = "3.0.1"
+tempfile = "3.1.0"
 
 [lib]
 name = "cargo_alfred"

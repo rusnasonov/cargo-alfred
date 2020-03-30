@@ -1,4 +1,4 @@
-use serde_derive::{Deserialize};
+use serde_derive::{Deserialize, Serialize};
 use std::{
     process::Command,
     error,
@@ -34,9 +34,16 @@ pub struct Metadata {
 }
 
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct AlfredMetadata {
     pub workflow_name: String,
+    pub bundle_id: String,
+    pub category: String,
+    pub created_by: String,
+    pub description: String,
+    pub name: String,
+    pub keyword: String,
+    pub title: String,
     pub include: Vec<String>,
 }
 

@@ -7,5 +7,12 @@ edition = "2018"
 [dependencies]
 
 [package.metadata.alfred]
-workflow_name = "example"
+workflow_name = "example_workflow_name" # fallback to package name
+bundle_id = "example_bundle_id"
+category = "tools"
+created_by = "Ruslan Nasonov <rus.nasonov@gmail.com>" # fallback first author?
+description = "example description" # fallback to package description
+name = "example_name"
+keyword = "example"
+title = "example_title"
 include = ["README.md"]
