@@ -25,6 +25,7 @@ pub struct CargoMetadataPackage {
     pub name: String,
     pub targets: Vec<CargoMetadataTarget>,
     pub manifest_path: String,
+    pub version: String,
     pub metadata: Metadata
 }
 

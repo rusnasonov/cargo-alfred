@@ -47,7 +47,8 @@
                     <string></string>
                     <key>script</key>
                     <string>query=$1
-                {{path_to_binary}} $1</string>
+
+{{bin_name}} $query</string>
                     <key>scriptargtype</key>
                     <integer>1</integer>
                     <key>scriptfile</key>
@@ -64,7 +65,7 @@
                 <key>type</key>
                 <string>alfred.workflow.input.scriptfilter</string>
                 <key>uid</key>
-                <string>7B158FA0-5179-408A-A967-A968C9DD6279</string>
+                <string>7B158FA0-5179-408A-A967-A968C9DD6289</string>
                 <key>version</key>
                 <integer>3</integer>
             </dict>
@@ -73,7 +74,7 @@
         <string></string>
         <key>uidata</key>
         <dict>
-            <key>7B158FA0-5179-408A-A967-A968C9DD6279</key>
+            <key>7B158FA0-5179-408A-A967-A968C9DD6289</key>
             <dict>
                 <key>xpos</key>
                 <integer>315</integer>

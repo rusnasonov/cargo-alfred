@@ -5,12 +5,13 @@ authors = ["Ruslan Nasonov <rus.nasonov@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+alfred = "4.0.2"
 
 [package.metadata.alfred]
 workflow_name = "example_workflow_name" # fallback to package name
 bundle_id = "example_bundle_id"
-category = "tools"
-created_by = "Ruslan Nasonov <rus.nasonov@gmail.com>" # fallback first author?
+category = "Productivity"
+created_by = "Ruslan Nasonov" # fallback first author?
 description = "example description" # fallback to package description
 name = "example_name"
 keyword = "example"
