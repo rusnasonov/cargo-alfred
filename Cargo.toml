@@ -1,8 +1,8 @@
 [package]
 name = "cargo-alfred"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Ruslan Nasonov <rus.nasonov@gmail.com>"]
-license-file = "LICENSE"
+license = "MIT"
 description = "A Cargo Subcommand that generates Alfred Workflow"
 edition = "2018"
 repository = "https://github.com/rusnasonov/cargo-alfred"
@@ -15,9 +15,9 @@ exclude = [
 ]
 
 [dependencies]
-serde = "1.0.105"
-serde_json = "1.0.50"
-serde_derive = "1.0.105"
+serde = "1.0.106"
+serde_json = "1.0.51"
+serde_derive = "1.0.106"
 zip = "0.5.5"
 handlebars = "3.0.1"
 
