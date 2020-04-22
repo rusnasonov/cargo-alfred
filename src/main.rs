@@ -12,7 +12,6 @@ fn build(package_metadata: cargo::CargoMetadata) {
     let info_plist_template = String::from_utf8_lossy(include_bytes!("Info.plist.template"));
     let package: &cargo::CargoMetadataPackage = package_metadata.packages.first().unwrap();
     let alfred_metadata: &cargo::AlfredMetadata = &package.metadata.alfred;
-    // TODO: add path to binary and version
     let targets = &package.targets;
     let bin_name = &targets
         .into_iter()

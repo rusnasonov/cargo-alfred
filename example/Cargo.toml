@@ -8,11 +8,11 @@ edition = "2018"
 alfred = "4.0.2"
 
 [package.metadata.alfred]
-workflow_name = "example_workflow_name" # fallback to package name
+workflow_name = "example_workflow_name"
 bundle_id = "example_bundle_id"
 category = "Productivity"
-created_by = "Ruslan Nasonov" # fallback first author?
-description = "example description" # fallback to package description
+created_by = "Ruslan Nasonov"
+description = "example description"
 name = "example_name"
 keyword = "example"
 title = "example_title"
