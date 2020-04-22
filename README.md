@@ -1,4 +1,4 @@
-[![Crates.io](https://img.shields.io/crates/v/cargo-alfred.svg)](https://crates.io/crates/cargo-alfred) [![Crates.io](https://img.shields.io/crates/d/cargo-alfred.svg)](https://crates.io/crates/cargo-alfred) [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rusnasonov/blob/master/LICENSE)
+[![Crates.io](https://img.shields.io/crates/v/cargo-alfred.svg)](https://crates.io/crates/cargo-alfred) [![Crates.io](https://img.shields.io/crates/d/cargo-alfred.svg)](https://crates.io/crates/cargo-alfred) [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rusnasonov/cargo-alfred/blob/master/LICENSE)
 
 # cargo-alfred
 
