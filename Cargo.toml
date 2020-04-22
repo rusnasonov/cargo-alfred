@@ -9,6 +9,10 @@ repository = "https://github.com/rusnasonov/cargo-alfred"
 readme = "README.md"
 keywords = ["cargo", "subcommand", "cargo-subcommand", "alfred", "osx"]
 categories = ["command-line-utilities", "development-tools::cargo-plugins", "development-tools::build-utils"]
+exclude = [
+    "example",
+    ".vscode"
+]
 
 [dependencies]
 serde = "1.0.105"
