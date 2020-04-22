@@ -2,7 +2,13 @@
 name = "cargo-alfred"
 version = "0.0.1"
 authors = ["Ruslan Nasonov <rus.nasonov@gmail.com>"]
+license-file = "LICENSE"
+description = "A Cargo Subcommand that generates Alfred Workflow"
 edition = "2018"
+repository = "https://github.com/rusnasonov/cargo-alfred"
+readme = "README.md"
+keywords = ["cargo", "subcommand", "cargo-subcommand", "alfred", "osx"]
+categories = ["command-line-utilities", "development-tools::cargo-plugins", "development-tools::build-utils"]
 
 [dependencies]
 serde = "1.0.105"
