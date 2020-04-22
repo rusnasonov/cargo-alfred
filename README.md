@@ -1,3 +1,5 @@
+[![Crates.io](https://img.shields.io/crates/v/cargo-alfred.svg)](https://crates.io/crates/cargo-alfred) [![Crates.io](https://img.shields.io/crates/d/cargo-alfred.svg)](https://crates.io/crates/cargo-alfred) [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rusnasonov/blob/master/LICENSE)
+
 # cargo-alfred
 
 This is [Cargo Subcomand](https://github.com/rust-lang/cargo/wiki/Third-party-cargo-subcommands) which create [Alfred Workflow](https://www.alfredapp.com/workflows/) from Cargo project.
