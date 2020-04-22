@@ -4,6 +4,10 @@ This is [Cargo Subcomand](https://github.com/rust-lang/cargo/wiki/Third-party-ca
 
 ## Usage
 
+Install with Cargo
+
+`cargo install cargo-alfred`
+
 Add `[package.metadata.alfred]` to project's `Cargo.toml` with following fields, see [example](https://github.com/rusnasonov/cargo-alfred/tree/master/example):
 
 ```
